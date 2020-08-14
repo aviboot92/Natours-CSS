@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-    height: 99vh;
+    height: 95vh;
     background-image: linear-gradient(to bottom right,#7ed56f81 , #28b485b6),url(../img/hero.jpg);
     background-position: top;
     background-size: cover;
@@ -34,4 +34,6 @@ body {
 /* 
     background-image: linear-gradient(to bottom right,#7ed56f81 , #28b485b6),url(../img/hero.jpg);
     background-image: linear-gradient(to right,#393f4d , #d4d4dc80),url(../engine2.jpg);
+    important background-image: linear-gradient(to right,#393939ce , #6e6e6eef),url(../engine2.jpg); 
+
 */
