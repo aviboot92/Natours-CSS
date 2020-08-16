@@ -28,8 +28,39 @@ body {
     background-position: top;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    position: relative;
 }
 
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 35px;
+}
+
+.heading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-transform: uppercase;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.heading-main {
+    display: block;
+    font-size: 70px;
+    letter-spacing: 35px;
+}
+
+.heading-subtitle {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 20.5px;
+}
 
 /* 
     background-image: linear-gradient(to bottom right,#7ed56f81 , #28b485b6),url(../img/hero.jpg);
