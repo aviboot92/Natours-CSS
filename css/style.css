@@ -54,12 +54,46 @@ body {
     display: block;
     font-size: 70px;
     letter-spacing: 35px;
+    animation-name: growFromLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /* To disable some shaky effect */
+    backface-visibility: hidden;
 }
 
 .heading-subtitle {
     display: block;
     font-size: 20px;
     letter-spacing: 20.5px;
+    animation: growFromRight 1s ease-in;
+}
+@keyframes growFromLeft {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(15%);
+        opacity: 0.75;
+    }
+    100% {
+        translate: (0);
+        opacity: 1;
+    }
+}
+@keyframes growFromRight {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(-15%);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 
 /* 
